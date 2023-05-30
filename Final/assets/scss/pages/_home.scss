@@ -1,0 +1,14 @@
+.home {
+  
+  height: 100vh;
+  background-image: url(../img/home_slider_bcg.jpg);
+  .home-div {
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    h2{
+        color: white;
+        font-size: 90px;
+    }
+  }
+}

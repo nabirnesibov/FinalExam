@@ -1,0 +1,15 @@
+.clients{
+
+    .img-div{
+       
+        display: flex;
+        justify-content: center;
+      img{
+        border-radius: 50%;
+        width: 100px;
+      }
+    }
+    h3{
+        color: orange;
+    }
+}

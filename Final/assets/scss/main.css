@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  z-index: 5;
+  background-color: transparent;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  padding: 20px 0;
+}
+
+header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header .logo {
+  color: white;
+}
+
+header .header .menu {
+  display: none;
+}
+
+header .header nav ul {
+  gap: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+header .header nav ul li a:hover {
+  color: orangered;
+}
+
+header .header .label {
+  padding: 10px 30px;
+  background-color: orange;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  header .header .menu {
+    color: white;
+    display: block;
+  }
+  header .header nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  header .header.show {
+    display: block;
+  }
+  header .header .label {
+    display: none;
+  }
+}
+
+.home {
+  height: 100vh;
+  background-image: url(../img/home_slider_bcg.jpg);
+}
+
+.home .home-div {
+  position: absolute;
+  top: 45%;
+  left: 27%;
+}
+
+.home .home-div h2 {
+  color: white;
+  font-size: 90px;
+}
+
+.product {
+  padding: 50px 0;
+}
+
+.product .sort {
+  padding: 10px;
+  border: 1px solid transparent;
+  background-color: blue;
+  border-radius: 35px;
+  color: white;
+}
+
+.product .sort:hover {
+  color: black;
+  background-color: coral;
+}
+
+.product .products {
+  z-index: -2;
+}
+
+.product .products .product-card .product-card-div .img-div {
+  width: 100%;
+  position: relative;
+}
+
+.product .products .product-card .product-card-div .img-div img {
+  width: 100%;
+}
+
+.product .products .product-card .product-card-div .img-div .featured {
+  position: absolute;
+  top: 8%;
+  color: white;
+  padding: 8px 30px;
+  background-color: orangered;
+}
+
+.product .products .product-card .product-card-div .img-div p {
+  height: 100px;
+}
+
+.product .products .product-card .product-card-div .img {
+  width: 100%;
+}
+
+.product .products .product-card .product-card-div .img .img-pictures {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product .products .product-card .product-card-div .money {
+  padding: 20px 0;
+  background-color: blue;
+}
+
+.product .products .product-card .product-card-div .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.product .products .product-card .product-card-div .actions i {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.product .products .product-card .product-card-div .actions i:hover {
+  background-color: red;
+}
+
+.clients .img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients .img-div img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.clients h3 {
+  color: orange;
+}
+
+.cities .city-img {
+  position: relative;
+}
+
+.cities .city-img .icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.cities .city-img img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.cities .city-img .city {
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  padding: 5px 20px;
+  background-color: orange;
+  color: white;
+  width: 120px;
+}
+
+.cities .city-img:hover img {
+  opacity: 0.5;
+}
+
+.cities .city-img:hover .icon {
+  opacity: 1;
+}
+
+.cities .city-img:hover .icon i {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products {
+  z-index: -2;
+}
+
+.products .product-card .product-card-div .img-div {
+  width: 100%;
+  position: relative;
+}
+
+.products .product-card .product-card-div .img-div img {
+  width: 100%;
+}
+
+.products .product-card .product-card-div .img-div .featured {
+  position: absolute;
+  top: 8%;
+  color: white;
+  padding: 8px 30px;
+  background-color: orangered;
+}
+
+.products .product-card .product-card-div .img-div p {
+  height: 100px;
+}
+
+.products .product-card .product-card-div .img {
+  width: 100%;
+}
+
+.products .product-card .product-card-div .img .img-pictures {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.products .product-card .product-card-div .money {
+  padding: 20px 0;
+  background-color: blue;
+}
+
+.products .product-card .product-card-div .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.products .product-card .product-card-div .actions i {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.products .product-card .product-card-div .actions i:hover {
+  background-color: red;
+}
+
+footer {
+  color: teal;
+  background-color: #13135b;
+  padding: 20px 0;
+}
+
+footer i {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

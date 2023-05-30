@@ -1,0 +1,72 @@
+.product{
+    padding: 50px 0;
+ 
+.sort{
+ 
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: blue;
+    border-radius: 35px;
+    color: white;
+    &:hover{
+        color: black;
+        background-color: coral;
+
+    }
+
+}
+    .products{
+        z-index: -2;
+        .product-card{
+            .product-card-div{
+                .img-div{
+                    width: 100%;
+                    position: relative;
+                     img{
+                        width: 100%;
+                     }
+                    .featured{
+                        position: absolute;
+                        top: 8%;
+                        color: white;
+                        padding: 8px 30px;
+                        background-color: orangered;
+                    }
+                    p{
+                        height: 100px;
+                    }
+                }
+                .img{
+                    width: 100%;
+                    .img-pictures{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+
+                    }
+                }
+                .money{
+                    padding: 20px 0;
+                    background-color: blue;
+                }
+                .actions{
+                     display: flex;
+                     justify-content: center;
+                     padding: 20px 0;
+                     align-items: center;
+                    gap: 20px;
+                    width: 100%;
+                   i{
+                    padding: 10px;
+                    background-color: blue;
+                    color: white;
+                    &:hover{
+                        background-color: red;
+                    }
+                   }
+
+                }
+            }
+        }
+    }
+}

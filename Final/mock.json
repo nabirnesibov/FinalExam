@@ -1,0 +1,76 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "photo": "./assets/img/featured_1.jpg",
+      "title": "Accessories ",
+      "content": "Quartz Belt Watch",
+      "price": "150"
+    },
+    {
+      "id": 3,
+      "photo": "./assets/img/featured_1.jpg",
+      "title": "Decor",
+      "content": "lorem ipsum salaom dfkjd vhefvrvrdfgfdhr",
+      "price": "25"
+    },
+    {
+      "id": 4,
+      "photo": "./assets/img/featured_3.jpg",
+      "title": "Decor test",
+      "content": "Room Flash Light",
+      "price": "155"
+    },
+    {
+      "id": 5,
+      "photo": "./assets/img/featured_1.jpg",
+      "title": "Accessories",
+      "content": "Man Office Bag",
+      "price": 75
+    },
+    {
+      "id": 6,
+      "photo": "./assets/img/featured_1.jpg",
+      "title": "Kids Toy",
+      "content": "Charging Car",
+      "price": 35
+    },
+    {
+      "id": 7,
+      "photo": "./assets/img/featured_2.jpg",
+      "title": "Accessories",
+      "content": "Blutooth Speaker",
+      "price": 405
+    },
+    {
+      "id": 8,
+      "photo": "./assets/img/featured_3.jpg",
+      "title": "Kids Toy",
+      "content": "Charging Car",
+      "price": 50
+    },
+    {
+      "title": "sALAM",
+      "content": "NABIR",
+      "price": "450",
+      "photo": "./assets/img/featured_1.jpg",
+      "id": 9
+    }
+  ],
+  "favs": [
+    {
+      "id": 3,
+      "photo": "./assets/img/featured_1.jpg",
+      "title": "Decor",
+      "content": "lorem ipsum salaom dfkjd vhefvrvrdfgfdhr",
+      "price": "25"
+    },
+    {
+      "id": 1,
+      "photo": "./assets/img/featured_1.jpg",
+      "title": "Accessories ",
+      "content": "Quartz Belt Watch",
+      "price": "150"
+    }
+  ]
+}
